@@ -1,0 +1,154 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.contenedor {
+    width: 700px;
+    height: 700px;
+    background-image: url(../img/k3.png);
+    background-size: 1250px;
+    background-position: center;
+    border: 1px solid black;
+    background-color: white;
+    position: relative;
+    margin: 0 auto;
+}
+
+.marco1 {
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/img2.png);
+    background-size: cover;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    top: 0px;
+    left: 250px;
+    position: absolute;
+    z-index: 3;
+    background-position: center;
+}
+
+.marco2 {
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/img3.jpeg);
+    background-size: cover;
+    clip-path: circle(50% at 50% 50%);
+    top: 180px;
+    left: 250px;
+    position: absolute;
+    z-index: 2;
+}
+
+.marco3 {
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/img2.png);
+    background-size: cover;
+    clip-path: polygon(37% 0, 64% 0, 93% 100%, 9% 100%);
+    position: absolute;
+    top: 350px;
+    left: 250px;
+    z-index: 1;
+    background-position: center;
+}
+
+.marco4 {
+    width: 200px;
+    height: 200px;
+    background-color: orangered;
+    background-size: cover;
+    clip-path: ellipse(41% 21% at 50% 50%);
+    position: absolute;
+    top: 480px;
+    left: 180px;
+    z-index: 2;
+    animation: marco4 1s infinite;
+}
+
+@keyframes marco4 {
+    0% {
+        top: 470px;
+        left: 175px;
+    }
+
+    50% {
+        top: 480px;
+        left: 175px;
+    }
+}
+
+.marco5 {
+    width: 200px;
+    height: 200px;
+    background-color: orangered;
+    background-size: cover;
+    clip-path: ellipse(41% 21% at 50% 50%);
+    position: absolute;
+    top: 480px;
+    left: 330px;
+    z-index: 2;
+    animation: marco5 1.5s infinite;
+}
+
+@keyframes marco5 {
+    0% {
+        top: 450px;
+        left: 330px;
+    }
+
+    50% {
+        top: 480px;
+        left: 330px;
+    }
+}
+
+.marco6 {
+    width: 200px;
+    height: 200px;
+    background-color: orangered;
+    background-size: cover;
+    clip-path: polygon(50% 0, 53% 0, 59% 100%, 55% 100%);
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    z-index: 2;
+}
+
+.marco7 {
+    width: 350px;
+    height: 200px;
+    background-color: orangered;
+    background-size: cover;
+    clip-path: polygon(22% 35%, 77% 36%, 100% 50%, 79% 63%, 22% 63%, 0% 50%);
+    position: absolute;
+    top: 300px;
+    left: 180px;
+    z-index: 0;
+}
+
+.marco8 {
+    width: 150px;
+    height: 120px;
+    background-image: url(../img/img2.png);
+    background-size: cover;
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    position: absolute;
+    top: 100px;
+    left: 464px;
+    z-index: 2;
+    background-position: center;
+    animation: marco8 3s infinite;
+}
+
+@keyframes marco8 {
+    0% {
+        top: 98px;
+        left: 450px;
+    }
+
+    50% {
+        top: 150px;
+        left: 465px;
+    }
+}
